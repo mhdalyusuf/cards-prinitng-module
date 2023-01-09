@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "semantic-ui-css/semantic.min.css";
+import { Button } from "semantic-ui-react";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button active primary content="test" className="mt-2" />
       </header>
     </div>
   );
